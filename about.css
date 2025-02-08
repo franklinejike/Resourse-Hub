@@ -43,70 +43,38 @@ nav ul li a {
     font-weight: 20px;
     font-weight: bold;
     background: rgb(25, 25, 192);
-    padding: 70px 70px;
-    color: white;
+    padding: 30px 30px;
+    /* color: white; */
     display: flex;
-    justify-content: space-around;
-    font-size: 32px;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* font-size: 32px */
+    /* height: 400px; */
+    color: white;
+    column-gap: 50px;
 }
-.search input[type=search]{
-    height: 45px;
-    width: 15vw;
-    border-radius: 5px;
-    border-width: 0px;
-    padding: 0px 15px;
+.search img{
+    width: 25%;
+
 }
-.search input[type=search]::placeholder{
-    color: grey;
+.search .introduction p{
+    font-size: larger;
+    margin-top: 30px;
 }
+.search h2{
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+
+
 .browse{
     background-color: rgb(199, 199, 211);
     padding: 20px 40px;
     height: 500px;
 }
-.browse .bigBookSection{
-    overflow-x: scroll;
-    display: flex;
-    column-gap: 10px;
-}
-.browse .bigBookSection .smallBookSection{
-    background-color: white;
-    width: fit-content;
-    height: 400px;
-    margin-top: 20px;
-    border-radius: 10px;
 
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    /* justify-content: space-between; */
-    padding: 0px 30px;
-}
-.browse .bigBookSection .smallBookSection .subject{
-    width: 30svw;
-    height: 90%;
-    background-color: white;
-    
-}
-.subject article{
-    display: flex;
-    background-color: rgb(137, 231, 82);
-    padding: 20px 20px;
-    column-gap: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-
-}
-.subject article img{
-    width: 40%;
-}
-.browse .bigBookSection .smallBookSection .subject .subjectName{
-    justify-content: center;
-    color: black;
-    display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
-}
 
 
 footer{
